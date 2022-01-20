@@ -92,6 +92,10 @@ p {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media (max-width: 414px) {
   header {
     font-size: 1.3rem;
