@@ -9,6 +9,13 @@
 body {
   background-color: #363636;
   font-family: "Bebas Neue", cursive;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
 }
 
 header {
@@ -17,14 +24,14 @@ header {
   align-items: center;
   background-color: #000;
   width: 100%;
-  height: 70px;
+  height: 55px;
   color: #fff;
   font-family: "Bebas Neue", cursive;
   font-size: 1.5rem;
 }
 
 main {
-  margin: 25px auto;
+  margin: 20px auto;
   width: 500px;
   height: 500px;
   background-color: #000;
@@ -72,6 +79,28 @@ img {
   padding: 3px;
 }
 
+.voltar {
+  position: fixed;
+  bottom: 53px;
+  right: 20px;
+  height: 30px;
+  width: 70px;
+  border-radius: 40px;
+  background-color: #003078;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.voltar:active {
+  background-color: #e40d0d;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
 footer {
   background: linear-gradient(
     201deg,
@@ -84,8 +113,6 @@ footer {
   width: 100%;
   height: 50px;
   font-size: 1.2rem;
-  position: fixed;
-  bottom: 0;
 }
 
 p {
