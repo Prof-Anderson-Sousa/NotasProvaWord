@@ -56,7 +56,7 @@ button:hover {
   transition: all ease 500ms;
 }
 
-button:nth-child(2) {
+button:nth-child(3) {
   padding: 10px 31px;
 }
 
